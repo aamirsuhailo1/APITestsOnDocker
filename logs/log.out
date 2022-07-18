@@ -1,0 +1,19 @@
+2022-07-18 21:59:49 INFO  PropertiesFileUtil:41 - Key is : baseurl
+  2022-07-18 21:59:49 INFO  PropertiesFileUtil:42 - Value for key baseurl is http://localhost:8080/api/users/
+  2022-07-18 21:59:49 INFO  PropertiesFileUtil:41 - Key is : health.endpoint
+  2022-07-18 21:59:49 INFO  PropertiesFileUtil:42 - Value for key health.endpoint is health/getAppHealth
+  2022-07-18 21:59:49 INFO  PropertiesFileUtil:41 - Key is : createuser.endpoint
+  2022-07-18 21:59:49 INFO  PropertiesFileUtil:42 - Value for key createuser.endpoint is create
+  2022-07-18 21:59:49 INFO  PropertiesFileUtil:41 - Key is : getallusers.endpoint
+  2022-07-18 21:59:49 INFO  PropertiesFileUtil:42 - Value for key getallusers.endpoint is getAllUsers
+  2022-07-18 21:59:49 INFO  PropertiesFileUtil:41 - Key is : specificuser.endpoint
+  2022-07-18 21:59:49 INFO  PropertiesFileUtil:42 - Value for key specificuser.endpoint is getUser
+  2022-07-18 21:59:49 INFO  PropertiesFileUtil:41 - Key is : deleteuser.endpoint
+  2022-07-18 21:59:49 INFO  PropertiesFileUtil:42 - Value for key deleteuser.endpoint is deleteUser
+  2022-07-18 21:59:51 INFO  Log:34 - Actual value of health endpoint is 200 and expected value is 200
+  2022-07-18 21:59:51 INFO  Log:34 - Actual value of create user endpoint is 200 and expected value is 200
+  2022-07-18 21:59:51 INFO  Log:34 - Actual value of get all users endpoint is 200 and expected value is 200
+  2022-07-18 21:59:51 INFO  Log:34 - Actual value of get specific user endpoint is 200 and expected value is 200
+  2022-07-18 21:59:51 INFO  Log:34 - Actual value of delete user endpoint is 200 and expected value is 200
+  2022-07-18 21:59:51 ERROR Log:39 - Actual value of get specific user endpoint is 500 but expected value is 200
+  
